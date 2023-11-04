@@ -1,13 +1,13 @@
-package com.example.SocialMediaApplicationRESTAPI;
+package com.SMARA.restAPIs.SMARESTAPI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SocialMediaApplicationRestApiApplication {
+public class SmarestApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SocialMediaApplicationRestApiApplication.class, args);
+		SpringApplication.run(SmarestApiApplication.class, args);
 	}
 
 }

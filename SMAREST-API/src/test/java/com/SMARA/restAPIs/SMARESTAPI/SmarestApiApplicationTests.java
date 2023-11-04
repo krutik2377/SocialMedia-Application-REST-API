@@ -1,10 +1,10 @@
-package com.example.SocialMediaApplicationRESTAPI;
+package com.SMARA.restAPIs.SMARESTAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SocialMediaApplicationRestApiApplicationTests {
+class SmarestApiApplicationTests {
 
 	@Test
 	void contextLoads() {
