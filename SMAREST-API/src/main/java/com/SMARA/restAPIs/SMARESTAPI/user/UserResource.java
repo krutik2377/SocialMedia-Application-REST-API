@@ -31,6 +31,11 @@ public class UserResource {
 	@GetMapping("/users/{Id}")
 	public User retriveSpecificUser(@PathVariable int Id)
 	{
+		User user = service.findUserbyId(Id);
+		
+		if(user==null)
+			throw new UserNotFountException("id:" + Id);
+		
 		return service.findUserbyId(Id);
 	}
 	
